@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yl8270.github.io/applied-biostatistics-qe/sitemap.xml

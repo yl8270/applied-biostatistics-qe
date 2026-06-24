@@ -1,0 +1,4 @@
+Characteristic,N,Mean (SD),"Median (Q1, Q3)",Missing
+"Age, years",130,65.5 (8.6),"66.0 (59.2, 71.0)",0
+"Tumor size, cm",127,3.4 (2.0),"3.0 (2.0, 4.4)",3
+"Length of hospital stay, days",127,6.5 (3.1),"6.0 (4.0, 8.0)",3

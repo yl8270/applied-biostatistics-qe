@@ -1,0 +1,32 @@
+Variable,Label,Synthetic coding / units,Role
+ID,Patient ID,1,Covariate/descriptor
+Age,"Age, years","Age, years",Covariate/descriptor
+Sex,Biological sex,Male,Covariate/descriptor
+Smoking,Smoking status,Former,Covariate/descriptor
+Surgical_resection,Surgical resection indicator,Yes,Covariate/descriptor
+type_of_surgery,Type of lung resection,Lobectomy,Covariate/descriptor
+pathologic_stage,Pathologic stage,I,Covariate/descriptor
+histology,Tumor histology,Adenocarcinoma,Covariate/descriptor
+Tumor_size_cm,"Tumor size, cm","Tumor size, cm",Covariate/descriptor
+Hilar_LN_involved,Hilar lymph node involvement,No,Covariate/descriptor
+Mediastinal_LN_involved,Mediastinal lymph node involvement,No,Covariate/descriptor
+Pre_op_PFTS,Preoperative PFT available,Yes,Covariate/descriptor
+FEV1,"Forced expiratory volume in 1 second, L","Forced expiratory volume in 1 second, L",Primary exposure
+FEV_percent_OF_PREDICTED,FEV1 percent predicted,FEV1 percent predicted,Primary exposure
+DLCO,"Diffusing capacity, ml/min/mmHg","Diffusing capacity, ml/min/mmHg",Primary exposure
+DLCO_percent_of_Predicted,DLCO percent predicted,DLCO percent predicted,Primary exposure
+Post_op_complications,Any postoperative complication,Yes,Covariate/descriptor
+Length_of_Hospital_stay,"Hospital length of stay, days","Hospital length of stay, days",Outcome
+respiratory,Preoperative respiratory comorbidity,No,Covariate/descriptor
+cardiac,Preoperative cardiac comorbidity,No,Covariate/descriptor
+stroke,Stroke comorbidity,No,Covariate/descriptor
+CKD,Chronic kidney disease,No,Covariate/descriptor
+DM,Diabetes mellitus,Yes,Covariate/descriptor
+othcomorb,Other comorbidity,No,Covariate/descriptor
+respcomp,Respiratory postoperative complication,No,Outcome
+cardcomp,Cardiac postoperative complication,No,Outcome
+deathcomp,Postoperative death complication,No,Outcome
+infectcomp,Infectious postoperative complication,Yes,Outcome
+anycomp,Any postoperative complication,Yes,Outcome
+died,Death indicator for overall survival,1,Outcome
+oasmons,"Overall survival/follow-up, months","Overall survival/follow-up, months",Outcome

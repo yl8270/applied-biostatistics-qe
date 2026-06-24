@@ -1,0 +1,9 @@
+Variable,term,Hazard ratio (95% CI),P value
+ALG use,alg_useALG,"0.67 (0.52, 0.88)",0.004
+"Age at transplant, years",age_years,"1.03 (1.02, 1.04)",<0.001
+Biological sex,sexFemale,"1.02 (0.79, 1.32)",0.894
+"Duration of hemodialysis prior to transplant, days",dialysis_days,"1.00 (1.00, 1.00)",0.035
+Diabetes status,diabetesYes,"2.14 (1.52, 3.01)",<0.001
+Number of prior transplants,prior_transplants_count,"1.28 (1.04, 1.57)",0.019
+"Amount of blood transfusion, blood units",blood_units,"1.01 (0.99, 1.04)",0.296
+Donor mismatch score,mismatch_score,"1.14 (1.05, 1.24)",0.001

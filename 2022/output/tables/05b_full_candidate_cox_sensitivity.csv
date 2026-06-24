@@ -1,0 +1,5 @@
+PFT,Increment,N,Events,Parameters,Events per parameter,Adjusted HR (95% CI),P value,Note
+FEV1,per 0.5-L increase,112,68,20,3.4,Not fit,,Skipped because events per parameter were <5.
+FEV1 percent predicted,per 10-percentage-point increase,112,69,20,3.5,Not fit,,Skipped because events per parameter were <5.
+DLCO,per 5-unit increase,109,64,20,3.2,Not fit,,Skipped because events per parameter were <5.
+DLCO percent predicted,per 10-percentage-point increase,111,68,20,3.4,Not fit,,Skipped because events per parameter were <5.

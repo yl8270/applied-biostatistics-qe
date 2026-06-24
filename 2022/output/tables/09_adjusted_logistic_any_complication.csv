@@ -1,0 +1,5 @@
+PFT,Increment,N,Adjusted OR (95% CI),P value
+FEV1,per 0.5-L increase,118,"0.94 (0.55, 1.61)",0.829
+FEV1 percent predicted,per 10-percentage-point increase,118,"0.81 (0.50, 1.29)",0.373
+DLCO,per 5-unit increase,115,"0.77 (0.37, 1.58)",0.470
+DLCO percent predicted,per 10-percentage-point increase,117,"0.93 (0.62, 1.41)",0.734

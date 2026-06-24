@@ -1,0 +1,16 @@
+Variable,Missing_N,Total_N,Missing_Percent
+dialysis_days,7,469,1.5
+blood_units,5,469,1.1
+diabetes,3,469,0.6
+mismatch_score,3,469,0.6
+age_years,2,469,0.4
+prior_transplant_any,2,469,0.4
+prior_transplants_count,2,469,0.4
+sex,2,469,0.4
+alg_use,0,469,0
+followup_months,0,469,0
+graft_failure,0,469,0
+graft_failure_label,0,469,0
+invalid_event,0,469,0
+invalid_survival_time,0,469,0
+subject_id,0,469,0

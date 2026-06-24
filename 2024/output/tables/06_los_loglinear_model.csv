@@ -1,0 +1,10 @@
+Term,Ratio of geometric mean LOS (95% CI),P value
+Procedure type: Gastric Bypass vs Gastric Banding,"1.357 (1.286, 1.432)",<0.001
+"Age, years","1.001 (0.999, 1.004)",0.411
+"Body mass index, kg/m^2","1.008 (1.004, 1.012)",<0.001
+sexMale,"0.972 (0.915, 1.033)",0.361
+Race/ethnicity: Non-Hispanic Black,"0.966 (0.877, 1.064)",0.486
+Race/ethnicity: Non-Hispanic White,"0.972 (0.897, 1.054)",0.490
+Race/ethnicity: Other/Unknown,"0.894 (0.797, 1.003)",0.055
+Current smoker: Yes vs No,"1.05 (0.978, 1.128)",0.176
+ASA severity: Severe vs Mild,"0.994 (0.912, 1.084)",0.894

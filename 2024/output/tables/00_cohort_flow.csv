@@ -1,0 +1,6 @@
+Step,N
+Raw records imported,2400
+Records with known procedure type,2400
+Records with nonmissing surgical complication status,2400
+Records with nonmissing age and BMI,2380
+Records available for primary logistic complete-case model,2330

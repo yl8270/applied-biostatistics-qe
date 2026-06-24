@@ -1,0 +1,16 @@
+Model,Term,Chisq,df,P value
+Full Cox model,alg_use,0.109,1,0.741
+Full Cox model,age_years,4.422,1,0.035
+Full Cox model,sex,0.389,1,0.533
+Full Cox model,dialysis_days,0.36,1,0.549
+Full Cox model,diabetes,2.772,1,0.096
+Full Cox model,prior_transplants_count,2.257,1,0.133
+Full Cox model,blood_units,3.385,1,0.066
+Full Cox model,mismatch_score,2.254,1,0.133
+Full Cox model,GLOBAL,14.975,8,0.060
+Selected Cox model,alg_use,0.199,1,0.656
+Selected Cox model,age_years,4.301,1,0.038
+Selected Cox model,diabetes,2.898,1,0.089
+Selected Cox model,prior_transplants_count,2.258,1,0.133
+Selected Cox model,mismatch_score,2.4,1,0.121
+Selected Cox model,GLOBAL,10.68,5,0.058

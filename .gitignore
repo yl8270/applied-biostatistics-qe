@@ -1,0 +1,13 @@
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj.user/
+__pycache__/
+*.py[cod]
+
+# Original qualifying-exam documents are intentionally not published.
+QE2022-PhD-Applied.docx
+QE2024-PhD-Applied.docx
+QE2025-PhD-Applied.docx

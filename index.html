@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>房子大了电话小了applied｜Applied Biostatistics Practice</title>
+  <meta name="description" content="房子大了电话小了applied：Applied Biostatistics qualifying exam practice materials, synthetic datasets, R code, reports, tables, and Chinese study guides for 2022, 2024, and 2025.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yl8270.github.io/applied-biostatistics-qe/">
+  <meta property="og:title" content="房子大了电话小了 applied">
+  <meta property="og:description" content="Applied biostatistics practice projects with synthetic data, R analysis code, reports, and study guides.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yl8270.github.io/applied-biostatistics-qe/">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17211b;
+      --muted: #526158;
+      --paper: #f5f2e8;
+      --card: rgba(255, 255, 255, 0.82);
+      --green: #176b4a;
+      --green-dark: #0f4d36;
+      --line: rgba(23, 33, 27, 0.13);
+      --shadow: 0 24px 65px rgba(40, 54, 44, 0.13);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 15% 0%, rgba(219, 171, 93, 0.23), transparent 33rem),
+        radial-gradient(circle at 95% 20%, rgba(39, 126, 91, 0.17), transparent 30rem),
+        var(--paper);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.65;
+    }
+
+    a { color: var(--green-dark); }
+    a:hover { color: var(--green); }
+
+    .wrap {
+      width: min(1080px, calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 88px 0 54px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 18px;
+      color: var(--green-dark);
+      font-size: 0.78rem;
+      font-weight: 750;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 840px;
+      margin: 0;
+      font-family: Georgia, "Noto Serif SC", "Songti SC", serif;
+      font-size: clamp(2.6rem, 7vw, 5.8rem);
+      font-weight: 500;
+      letter-spacing: -0.045em;
+      line-height: 1.04;
+    }
+
+    .intro {
+      max-width: 760px;
+      margin: 28px 0 0;
+      color: var(--muted);
+      font-size: clamp(1.05rem, 2vw, 1.25rem);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 46px;
+      padding: 10px 17px;
+      border: 1px solid var(--green-dark);
+      border-radius: 999px;
+      background: var(--green-dark);
+      color: white;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--green-dark);
+    }
+
+    main { padding-bottom: 72px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      min-height: 265px;
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .year {
+      color: var(--green);
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+    }
+
+    h2 {
+      margin: 10px 0 12px;
+      font-family: Georgia, "Noto Serif SC", "Songti SC", serif;
+      font-size: 1.65rem;
+      line-height: 1.2;
+    }
+
+    .card p {
+      margin: 0 0 18px;
+      color: var(--muted);
+    }
+
+    .card a {
+      font-weight: 750;
+      text-underline-offset: 4px;
+    }
+
+    .resources {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+
+    .note {
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.6);
+    }
+
+    .note h2 { margin-top: 0; }
+    .note p:last-child { margin-bottom: 0; }
+
+    footer {
+      padding: 28px 0 44px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 780px) {
+      header { padding-top: 58px; }
+      .grid, .resources { grid-template-columns: 1fr; }
+      .card { min-height: auto; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LearningResource",
+    "name": "房子大了电话小了 applied",
+    "description": "Applied biostatistics qualifying-exam practice projects using synthetic data.",
+    "url": "https://yl8270.github.io/applied-biostatistics-qe/",
+    "inLanguage": ["zh-CN", "en"],
+    "educationalLevel": "Graduate"
+  }
+  </script>
+</head>
+<body>
+  <header class="wrap">
+    <span class="eyebrow">Applied Biostatistics · Practice Archive</span>
+    <h1>房子大了电话小了 applied</h1>
+    <p class="intro">
+      一套 Applied Biostatistics 博士资格考试风格的练习资料库，包括合成数据、R 分析代码、报告、统计表格、诊断图和中文学习指南，覆盖 2022、2024 与 2025 三类项目。
+    </p>
+    <div class="actions">
+      <a class="button" href="https://github.com/yl8270/applied-biostatistics-qe">查看 GitHub 仓库</a>
+      <a class="button secondary" href="#projects">浏览项目</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid" id="projects" aria-label="Year-specific practice projects">
+      <article class="card">
+        <div class="year">2022</div>
+        <h2>Lung Cancer &amp; Pulmonary Function</h2>
+        <p>肺功能、肺癌手术结局与生存分析，包括 Kaplan–Meier、Cox 回归、并发症和住院时长模型。</p>
+        <a href="https://github.com/yl8270/applied-biostatistics-qe/tree/main/2022">打开 2022 项目 →</a>
+      </article>
+
+      <article class="card">
+        <div class="year">2024</div>
+        <h2>NSQIP Bariatric Outcomes</h2>
+        <p>减重手术结局分析，包括描述性表格、Logistic 回归、计数模型、交互作用与模型诊断。</p>
+        <a href="https://github.com/yl8270/applied-biostatistics-qe/tree/main/2024">打开 2024 项目 →</a>
+      </article>
+
+      <article class="card">
+        <div class="year">2025</div>
+        <h2>Kidney Transplant Survival</h2>
+        <p>肾移植后移植物生存分析，包括 Cox 模型、比例风险检验、交互作用筛选和敏感性分析。</p>
+        <a href="https://github.com/yl8270/applied-biostatistics-qe/tree/main/2025">打开 2025 项目 →</a>
+      </article>
+    </section>
+
+    <section class="resources">
+      <div class="note">
+        <h2>综合学习资料</h2>
+        <p><a href="https://github.com/yl8270/applied-biostatistics-qe/tree/main/Applied_Biostatistics_Research_to_Report_Handbook_Package">Research-to-Report handbook package</a></p>
+        <p><a href="https://github.com/yl8270/applied-biostatistics-qe/tree/main/Applied_Biostatistics_Three_Year_Textbook_Training_Package">Three-year textbook and training package</a></p>
+      </div>
+
+      <div class="note">
+        <h2>公开说明</h2>
+        <p>项目数据均为合成练习数据，不是真实临床数据。三份原始资格考试文件未在本网站或仓库中发布。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      搜索提示：房子大了电话小了applied · 房子大了电话小了 applied
+    </div>
+  </footer>
+</body>
+</html>

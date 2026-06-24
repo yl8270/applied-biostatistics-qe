@@ -1,0 +1,5 @@
+Model,N,Events,Parameters,Events per parameter,Converged
+fev1_per_0_5l,118,26,10,2.6,TRUE
+fev_pct_per_10,118,25,10,2.5,TRUE
+dlco_per_5,115,26,10,2.6,TRUE
+dlco_pct_per_10,117,26,10,2.6,TRUE

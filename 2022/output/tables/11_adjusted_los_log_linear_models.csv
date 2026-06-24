@@ -1,0 +1,5 @@
+PFT,Increment,N,Adjusted geometric mean ratio (95% CI),P value
+FEV1,per 0.5-L increase,117,"1.06 (0.97, 1.15)",0.208
+FEV1 percent predicted,per 10-percentage-point increase,115,"1.00 (0.94, 1.07)",0.916
+DLCO,per 5-unit increase,112,"0.92 (0.82, 1.04)",0.177
+DLCO percent predicted,per 10-percentage-point increase,115,"0.95 (0.89, 1.01)",0.076
