@@ -11,6 +11,7 @@ Website: <https://yl8270.github.io/applied-biostatistics-qe/>
 - [2025: Kidney transplant graft survival](2025/)
 - [Applied biostatistics research-to-report handbook](Applied_Biostatistics_Research_to_Report_Handbook_Package/)
 - [Three-year textbook and training package](Applied_Biostatistics_Three_Year_Textbook_Training_Package/)
+  - [Applied exam literature search and article extraction guide (CN)](Applied_Biostatistics_Three_Year_Textbook_Training_Package/Applied_Exam_Literature_Search_and_Article_Extraction_Guide_CN.docx)
 
 The datasets included in the year-specific projects are synthetic practice data. They are not real clinical datasets and must not be interpreted as clinical evidence.
 

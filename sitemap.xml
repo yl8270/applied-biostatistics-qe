@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://yl8270.github.io/applied-biostatistics-qe/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yl8270.github.io/applied-biostatistics-qe/Applied_Biostatistics_Three_Year_Textbook_Training_Package/Applied_Exam_Literature_Search_and_Article_Extraction_Guide_CN.docx</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
